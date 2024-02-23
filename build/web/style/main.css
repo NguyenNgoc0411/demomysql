@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    background: #f2f1f6;
+    width: 1200px;
+    margin: 0 auto 0 auto;
+}
+header{
+    background:  #bcdce0;
+    padding: 0px 0 15px 0;
+    width: 1200px;
+    height: 110px;
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+    
+    z-index: 10;
+}
+.logo {
+    width: 180px;
+    float: left;
+    margin: 10px 30px ;
+}
+.logo a {
+    color: #333333;
+    text-decoration: none;
+    outline: 0;
+    
+}
+.logo a img {
+    width: 100%;
+    border-radius: 5%;
+    height: 90px;
+}
+.tim_kiem{
+    width: 350px;
+    float: left;
+    
+    margin-top: 30px;
+    position: relative;
+    margin-right: 30px;
+}
+.timkiem_goiy .action {
+    
+    width: 60px;
+    height: 36px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top:0
+}
+.timkiem_goiy .btn_submit {
+    border: 0;
+    background: #1d617e;
+    text-align: center;
+    height: 36px;
+    width: 100%;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+
+}
+
+
+.nhap_tim_kiem {
+    height: 36px;
+    background: #fff;
+    padding: 5px 10px;
+    font-size: 12px;
+    color: #666;
+    width: 100%;
+    float: left;
+    border: none;
+    outline-width: 0px;
+}
+.home {
+    width: 150px;
+    margin-top: 40px;
+    position: relative;
+    display: inline-flex;
+}
+.home a {
+
+    font-size: 20px;
+    color: #1d617e ;
+    text-decoration: none;
+    outline: 0;
+    
+}
+.nguoi_dung
+{
+    width: 200px;
+}
+#top_bar_header {
+    background: #dbebed;
+    padding: 135px 0 7px 0;
+    z-index: 9;
+    
+    
+
+}
+.box_shadow {
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.1);
+    position: relative;
+    width: 100%;
+    float: left;
+}
+.item {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto 10px auto ;
+
+}
+#top_bar_header a {
+    text-decoration: none;
+    color:  #1d617e;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: inline-block;
+    
+    
+    
+}
+
+
+.content {
+    margin-top: 10px ;
+   
+    background-color: rgb(253, 253, 253);
+    
+ 
+}
+.content p {
+    padding: 10px;
+}
+.content h1 {
+    padding: 10px 0 0 10px;
+    font-size: 15px;
+}
+.clicked{
+    background-color: #bcdce0;
+    padding: 10px;
+    margin-top:-10px;
+}
